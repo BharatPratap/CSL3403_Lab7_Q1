@@ -1,0 +1,98 @@
+<html><head>
+    <title>Responsive Webpage</title>
+    <style media="screen">
+      body{
+        width: 80%;
+        margin:auto;
+        margin-top: 5rem;
+        background-color:#fff5ea ;
+        }
+      h1{
+        color: #000000;
+        text-align:center;
+      }
+      .klass{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content:center;
+
+       }
+
+       img{
+       width:350px;
+       height:300px;
+       margin:6px;
+       transition:all 1s;
+       box-shadow: 3px 3px 3px #800000;
+       }
+       img:hover{
+      transform:  rotate(1turn) scale(2) ;
+
+       }
+       #head{
+         font-size: 5rem;
+     position: relative;
+     color: red;
+     animation-name: myAni;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+
+
+
+}
+.details {
+
+  
+
+  position: relative;
+  text-align: center;
+  background-color: red;
+  animation-name: apple;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes apple {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+
+@keyframes myAni {
+  0%   {color:#150485; left:0px; top:0px;}
+  25%  {color:#590995; left:100px; top:0px;}
+  50%  {color:#c62a88; left:100px; top:100px;}
+  75%  {color:#03c4a1; left:0px; top:100px;}
+  100% {color:#213e3b; left:0px; top:0px;}
+}
+    </style>
+</head>
+    <body>
+        <h1>Assingment</h1>
+       <h1 id="head"><u>Seven wonder of the WORLD</u></h1>
+      <br><br><br>
+  <div class="klass">
+  <img src="https://www.worldatlas.com/r/w960-h540-q80/upload/f4/c9/87/shutterstock-168497345-1-min.jpg" alt="Connect to Internet pls">
+  <img src="https://www.worldatlas.com/r/w960-q80/upload/bb/a2/fa/shutterstock-180918317.jpg" alt="Connect to Internet pls">
+  <img src="https://www.worldatlas.com/r/w960-q80/upload/55/2c/54/shutterstock-433413835.jpg" alt="Connect to Internet pls">
+  <img src="https://www.worldatlas.com/r/w960-q80/upload/18/ec/64/shutterstock-356871482.jpg" alt="Connect to Internet pls">
+  <img src="https://www.worldatlas.com/r/w960-q80/upload/a2/b7/90/shutterstock-1283692720-1.jpg" alt="Connect to Internet pls">
+  <img src="https://www.worldatlas.com/r/w960-q80/upload/ba/36/57/shutterstock-1030695895.jpg" alt="Connect to Internet pls">
+  <img src="https://www.worldatlas.com/r/w960-q80/upload/ce/fc/93/shutterstock-275490581.jpg" alt="Connect to Internet pls">
+
+
+        </div>
+
+        <div class="details ">
+          <h1 class="details">Bharat Pratap</h1>
+          <h2 class="details">1906167</h2>
+          <h3 class="details">CSL3403 Assignment</h3>
+
+        </div>
+    </body>
+</html>
